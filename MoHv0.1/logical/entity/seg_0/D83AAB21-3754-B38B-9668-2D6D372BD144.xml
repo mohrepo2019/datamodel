@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9F08474F-62AF-D776-A4DE-FA141249A913" name="Owner">
-<createdBy>Suresh</createdBy>
-<createdTime>2019-11-21 12:03:54 UTC</createdTime>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D83AAB21-3754-B38B-9668-2D6D372BD144" name="Attornery">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-21 12:16:14 UTC</createdTime>
 <ownerDesignName>MoHv0.1</ownerDesignName>
 <engineerTo>
 <item key="89EB91A6-3896-68E9-4EBE-AF321F88F307" value="true"/>
@@ -15,28 +15,29 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Owner ID" id="1BD78E6E-F51E-82B0-2C48-98930C22B4BD">
-<createdBy>Suresh</createdBy>
-<createdTime>2019-11-21 12:06:52 UTC</createdTime>
-<ownerDesignName>MoHv0.1</ownerDesignName>
-<engineerTo>
-<item key="89EB91A6-3896-68E9-4EBE-AF321F88F307" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="At ID" id="B50660CA-AE91-295F-04A0-26470BD3CBEF">
+<Attribute name="At ID" id="B62A71F7-94E4-ABE4-2E07-1577615CD0C9">
 <createdBy>Administrator</createdBy>
-<createdTime>2019-11-21 12:16:36 UTC</createdTime>
-<generatorID>342FDD3D-1C38-6716-AB0B-2834A5EED022</generatorID>
+<createdTime>2019-11-21 12:16:25 UTC</createdTime>
 <ownerDesignName>MoHv0.1</ownerDesignName>
 <engineerTo>
 <item key="89EB91A6-3896-68E9-4EBE-AF321F88F307" value="true"/>
 </engineerTo>
-<referedAttribute>B62A71F7-94E4-ABE4-2E07-1577615CD0C9</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="51D22AFD-1241-C5C7-A085-DD803BBB6B6B" name="Attornery PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-21 12:16:31 UTC</createdTime>
+<ownerDesignName>MoHv0.1</ownerDesignName>
+<engineerTo>
+<item key="89EB91A6-3896-68E9-4EBE-AF321F88F307" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B62A71F7-94E4-ABE4-2E07-1577615CD0C9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>
