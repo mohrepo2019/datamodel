@@ -48,6 +48,17 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Mobile" id="4FD4E576-4888-4656-1966-62294C4BF22D">
+<createdBy>Suresh</createdBy>
+<createdTime>2019-11-21 12:27:36 UTC</createdTime>
+<ownerDesignName>MoHv0.1</ownerDesignName>
+<engineerTo>
+<item key="89EB91A6-3896-68E9-4EBE-AF321F88F307" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="2047FD40-DB67-F4BB-89ED-E617788DA609" name="Applicant PK">
