@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BCAF00A0-7171-8E9A-BAE4-149DED0E9EC5" name="Applicant">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EECB1174-56D9-4B32-194B-DA72882678BE" name="OwnerShip">
 <createdBy>Suresh</createdBy>
-<createdTime>2019-11-21 11:59:44 UTC</createdTime>
+<createdTime>2019-11-21 12:22:14 UTC</createdTime>
 <ownerDesignName>MoHv0.1</ownerDesignName>
 <engineerTo>
 <item key="89EB91A6-3896-68E9-4EBE-AF321F88F307" value="true"/>
@@ -15,19 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Applicant ID" id="703FC18D-04F2-CEAA-AEB7-725D9FA08E1A">
+<Attribute name="OWNS_ID" id="2969866F-149A-F97E-2A8E-4F662C2CBF32">
 <createdBy>Suresh</createdBy>
-<createdTime>2019-11-21 11:59:50 UTC</createdTime>
-<ownerDesignName>MoHv0.1</ownerDesignName>
-<engineerTo>
-<item key="89EB91A6-3896-68E9-4EBE-AF321F88F307" value="true"/>
-</engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Applicant Name" id="0D2A9CBA-05DB-6CF0-18D3-93DEB0CA5B29">
-<createdBy>Suresh</createdBy>
-<createdTime>2019-11-21 11:59:54 UTC</createdTime>
+<createdTime>2019-11-21 12:22:23 UTC</createdTime>
 <ownerDesignName>MoHv0.1</ownerDesignName>
 <engineerTo>
 <item key="89EB91A6-3896-68E9-4EBE-AF321F88F307" value="true"/>
@@ -36,31 +26,29 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Land ID" id="437B83DA-7CC8-D057-5D1E-AE15EFF74099">
-<createdBy>Administrator</createdBy>
-<createdTime>2019-11-21 12:07:10 UTC</createdTime>
-<generatorID>7C895DF6-D468-CBD5-656D-94FBFA86216C</generatorID>
+<Attribute name="Applicant ID" id="6DE0460D-A00F-C9CA-EFB8-9ED93E4AED96">
+<createdBy>Suresh</createdBy>
+<createdTime>2019-11-21 12:22:51 UTC</createdTime>
+<generatorID>F6835EFF-46DA-3AC3-0156-E06FA2945181</generatorID>
 <ownerDesignName>MoHv0.1</ownerDesignName>
 <engineerTo>
 <item key="89EB91A6-3896-68E9-4EBE-AF321F88F307" value="true"/>
 </engineerTo>
-<referedAttribute>66A78223-5A81-E515-6376-1A035825E60B</referedAttribute>
+<referedAttribute>703FC18D-04F2-CEAA-AEB7-725D9FA08E1A</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Owner ID" id="9F558194-BDF1-CA01-F839-28DE26FD1F41">
+<createdBy>Suresh</createdBy>
+<createdTime>2019-11-21 12:22:55 UTC</createdTime>
+<generatorID>1F2C1082-51EF-7136-764F-105D18C938AC</generatorID>
+<ownerDesignName>MoHv0.1</ownerDesignName>
+<engineerTo>
+<item key="89EB91A6-3896-68E9-4EBE-AF321F88F307" value="true"/>
+</engineerTo>
+<referedAttribute>1BD78E6E-F51E-82B0-2C48-98930C22B4BD</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
-<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="2047FD40-DB67-F4BB-89ED-E617788DA609" name="Applicant PK">
-<createdBy>Suresh</createdBy>
-<createdTime>2019-11-21 12:22:47 UTC</createdTime>
-<ownerDesignName>MoHv0.1</ownerDesignName>
-<engineerTo>
-<item key="89EB91A6-3896-68E9-4EBE-AF321F88F307" value="true"/>
-</engineerTo>
-<pk>true</pk>
-<usedAttributes>
-<attributeRef>703FC18D-04F2-CEAA-AEB7-725D9FA08E1A</attributeRef>
-</usedAttributes>
-</identifier>
-</identifiers>
 </Entity>

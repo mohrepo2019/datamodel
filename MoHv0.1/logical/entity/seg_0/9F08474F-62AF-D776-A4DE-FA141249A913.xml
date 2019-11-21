@@ -22,7 +22,6 @@
 <engineerTo>
 <item key="89EB91A6-3896-68E9-4EBE-AF321F88F307" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -50,4 +49,18 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9F591979-8F23-921F-002E-7CEF3B0A766C" name="Owner PK">
+<createdBy>Suresh</createdBy>
+<createdTime>2019-11-21 12:21:43 UTC</createdTime>
+<ownerDesignName>MoHv0.1</ownerDesignName>
+<engineerTo>
+<item key="89EB91A6-3896-68E9-4EBE-AF321F88F307" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1BD78E6E-F51E-82B0-2C48-98930C22B4BD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>
