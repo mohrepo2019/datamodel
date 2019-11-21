@@ -26,6 +26,18 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="At ID" id="B50660CA-AE91-295F-04A0-26470BD3CBEF">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-21 12:16:36 UTC</createdTime>
+<generatorID>342FDD3D-1C38-6716-AB0B-2834A5EED022</generatorID>
+<ownerDesignName>MoHv0.1</ownerDesignName>
+<engineerTo>
+<item key="89EB91A6-3896-68E9-4EBE-AF321F88F307" value="true"/>
+</engineerTo>
+<referedAttribute>B62A71F7-94E4-ABE4-2E07-1577615CD0C9</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="Krooki ID" id="A2AE9E87-4060-F4D7-6181-483CB3249410">
 <createdBy>Suresh</createdBy>
 <createdTime>2019-11-21 12:11:39 UTC</createdTime>

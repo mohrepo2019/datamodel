@@ -1,0 +1,43 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D83AAB21-3754-B38B-9668-2D6D372BD144" name="Attornery">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-21 12:16:14 UTC</createdTime>
+<ownerDesignName>MoHv0.1</ownerDesignName>
+<engineerTo>
+<item key="89EB91A6-3896-68E9-4EBE-AF321F88F307" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="At ID" id="B62A71F7-94E4-ABE4-2E07-1577615CD0C9">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-21 12:16:25 UTC</createdTime>
+<ownerDesignName>MoHv0.1</ownerDesignName>
+<engineerTo>
+<item key="89EB91A6-3896-68E9-4EBE-AF321F88F307" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="51D22AFD-1241-C5C7-A085-DD803BBB6B6B" name="Attornery PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-21 12:16:31 UTC</createdTime>
+<ownerDesignName>MoHv0.1</ownerDesignName>
+<engineerTo>
+<item key="89EB91A6-3896-68E9-4EBE-AF321F88F307" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B62A71F7-94E4-ABE4-2E07-1577615CD0C9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
